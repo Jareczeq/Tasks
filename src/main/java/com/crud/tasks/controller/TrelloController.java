@@ -28,5 +28,4 @@ public class TrelloController {
         return ResponseEntity.ok(trelloClient.createNewCard(trelloCardDto));
     }
 
-
 }
