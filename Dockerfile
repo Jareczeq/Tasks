@@ -16,4 +16,4 @@ VOLUME /tmp
 
 COPY --from=build /app/build/libs/*.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
-EXPOSE 10000
+EXPOSE 8080
